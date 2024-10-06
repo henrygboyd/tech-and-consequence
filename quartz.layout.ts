@@ -6,12 +6,12 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Darkmode(), Component.HeaderNav(),
      Component.Search(),],
-  afterBody: [Component.Breadcrumbs(),],
+  afterBody: [Component.Breadcrumbs(), Component.ButtondownSubscribe(),],
   footer: Component.Footer({
     links: {
 
     },
-  }), Component.DesktopOnly(Component.ButtondownSubscribe()),
+  }),
 }
 
 // components for pages that display a single page (e.g. a single note)

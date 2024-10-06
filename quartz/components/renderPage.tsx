@@ -8,6 +8,7 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
+import ButtondownSubscription from "./ButtondownSubscribe"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -234,7 +235,7 @@ export function renderPage(
                 </div>
               </div>
               <Content {...componentData} />
-              <hr />
+              <hr style="min-width: 80%; max-width: 80%;"/>
               <div class="page-footer">
                 {afterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />

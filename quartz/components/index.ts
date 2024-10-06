@@ -21,6 +21,9 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 
+import HeaderNav from "./HeaderNav"
+import ButtondownSubscribe from "./ButtondownSubscribe"
+
 export {
   ArticleTitle,
   Content,
@@ -44,4 +47,6 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  HeaderNav,
+  ButtondownSubscribe,
 }

@@ -1,3 +1,73 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+@media (min-width: 850px) {
+  .page > #quartz-body {
+    padding: 0 2rem;
+  }
+
+  .graph {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page > #quartz-body .page-header, .page > #quartz-body .sidebar.left, .page > #quartz-body .page-listing {
+      min-width: 80%;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .page > #quartz-body .page-listing {
+    min-width: 70%;
+    max-width: 70%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page > #quartz-body article, .page > #quartz-body footer, .page > #quartz-body .page-footer, .page > #quartz-body .right-sidebar {
+    min-width: 65%;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article-title, .content-meta, .tags {
+    min-width: 70%;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+.sidebar.left {
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1rem 0;
+}
+
+.breadcrumb-container {
+  justify-content: center;
+}
+
+
+@media (max-width: 850px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  #links-header-container {
+    order: -1;
+  }
+}

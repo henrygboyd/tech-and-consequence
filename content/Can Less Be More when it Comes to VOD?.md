@@ -49,3 +49,15 @@ Now I don't believe A24 is trying to compete with any streaming services at the 
 ![[Pasted image 20240929191114.png]]
 
 The A24 app isn't going to trigger major changes across video on demand. It will likely remain a niche service used by a very specific group of consumers devoted to one film studio's work. But in an industry dominated by streaming behemoths, I think an option on the opposite end of that spectrum is a welcome addition. And while I don't envision any other studios joining A24 anytime soon, I believe having more specific and curated VOD options like these will only serve to improve our content consumption as consumers. It's an opportunity for all of us to try swapping out a tsunami of endless content for a pond. Limitations to be certain, but perhaps a little more serene.
+
+<br>
+<form
+        action="https://buttondown.com/api/emails/embed-subscribe/techandconsequence"
+        method="post"
+        target="popupwindow"
+        onSubmit="window.open('https://buttondown.com/techandconsequence', 'popupwindow')"
+        class="embeddable-buttondown-form"
+        >
+        <input type="email" name="email" id="bd-email" />
+        <input type="submit" value="Subscribe" />
+        </form>

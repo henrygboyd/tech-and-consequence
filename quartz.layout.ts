@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
 
     },
-  }),
+  }), Component.DesktopOnly(Component.ButtondownSubscribe()),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -27,7 +27,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.Graph()),
-    Component.ButtondownSubscribe(),
   ],
 }
 

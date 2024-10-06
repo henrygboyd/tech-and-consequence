@@ -11,9 +11,9 @@ export default (() => {
       <div id="links-header-container">
         <div id="links-header">        
             <a href="/index">Home</a>    
-            <a href="/guides/">News</a>    
-            <a href="/modding-tools/">Culture</a>     
-            <a href="https://tes3cs-manual.vercel.app/">Policy</a>
+            <a href="/tags/news/">News</a>    
+            <a href="/tags/culture/">Culture</a>     
+            <a href="/tags/policy">Policy</a>
             <a href="/About/">About</a>
         </div>
       </div>

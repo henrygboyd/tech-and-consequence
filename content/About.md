@@ -14,10 +14,12 @@ These technologies being released have the potential to drastically upend daily 
 
 Thanks for stopping by and let us know if you think there's anything we should cover!
 
-<p align="left"><iframe src="https://embeds.beehiiv.com/3e1a3227-d717-4eca-8115-a66c29b78d16?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe><p>
+<br>
 
 **Contact:** [henry@techandconsequence.com](mailto:henry@techandconsequence.com)<br>
 **Tips:** [tips@techandconsequence.com](mailto:tips@techandconsequence.com) (Unencrypted)<br>
 **[Ethics Policy](https://www.techandconsequence.com/ethics-policy/)**<br>
+
+<br>
 
 Created by [Henry Boyd](https://www.henrygboyd.com/) <br>**Quick disclaimer:** Any opinions expressed here are my own and not those of my current employer

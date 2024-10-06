@@ -13,9 +13,6 @@ $breakpoints: (
 $mobileBreakpoint: 600px;
 $tabletBreakpoint: 1000px;
 $topSpacing: 1rem; /* reduce empty space at top of page and likelihood of sidebar bottoms being cut off */
-$boldWeight: 700;
-$semiBoldWeight: 600;
-$normalWeight: 400;
 
 $mobile: "(max-width: #{map-get($breakpoints, mobile)})";
 $tablet: "(min-width: #{map-get($breakpoints, mobile)}) and (max-width: #{map-get($breakpoints, desktop)})";

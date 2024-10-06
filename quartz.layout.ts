@@ -6,7 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Darkmode(), Component.HeaderNav(),
      Component.Search(),],
-  afterBody: [Component.Breadcrumbs(), Component.ButtondownSubscribe(),],
+  afterBody: [Component.ButtondownSubscribe(), Component.Breadcrumbs(),],
   footer: Component.Footer({
     links: {
 

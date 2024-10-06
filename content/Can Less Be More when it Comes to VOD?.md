@@ -11,16 +11,20 @@ date: 2023-12-29
 
 ![[Pasted image 20240929191157.png]]
 
-<form
-        action="https://buttondown.com/api/emails/embed-subscribe/techandconsequence"
-        method="post"
-        target="popupwindow"
-        onSubmit="window.open('https://buttondown.com/techandconsequence', 'popupwindow')"
-        class="embeddable-buttondown-form"
-        >
-        <input type="email" name="email" id="bd-email" />
-        <input type="submit" value="Subscribe" />
+<div class="buttondown-subscribe-box">
+      <div class="subscribe-box-content">
+        <form class="subscribe-form"
+            action="https://buttondown.com/api/emails/embed-subscribe/techandconsequence"
+            method="post"
+            target="popupwindow"
+            onSubmit="window.open('https://buttondown.com/techandconsequence', 'popupwindow')"
+            class="embeddable-buttondown-form"
+            >
+            <input class="subscribe-email-input" type="email" name="email" id="bd-email" placeholder="Enter your email" />
+            <input class="subscribe-submit-button" type="submit" value="Subscribe" />
         </form>
+    </div>
+  </div>
 
 The first time I remember having too many movie choices was when our local movie rental store (RIP Media Wave) decided to transition to DVDs and offload all of their VHS tapes. At one dollar apiece, I must have spent hours perusing my options to put together the perfect collection to fit my budget. The actual catalog they sold was probably in the hundreds, but back then for a middle schooler that might as well have been infinite options. So naturally I left with twenty dollars worth of [old Godzilla movies](https://www.youtube.com/watch?v=1K4EDfUjpIE).
 
@@ -49,15 +53,3 @@ Now I don't believe A24 is trying to compete with any streaming services at the 
 ![[Pasted image 20240929191114.png]]
 
 The A24 app isn't going to trigger major changes across video on demand. It will likely remain a niche service used by a very specific group of consumers devoted to one film studio's work. But in an industry dominated by streaming behemoths, I think an option on the opposite end of that spectrum is a welcome addition. And while I don't envision any other studios joining A24 anytime soon, I believe having more specific and curated VOD options like these will only serve to improve our content consumption as consumers. It's an opportunity for all of us to try swapping out a tsunami of endless content for a pond. Limitations to be certain, but perhaps a little more serene.
-
-<br>
-<form
-        action="https://buttondown.com/api/emails/embed-subscribe/techandconsequence"
-        method="post"
-        target="popupwindow"
-        onSubmit="window.open('https://buttondown.com/techandconsequence', 'popupwindow')"
-        class="embeddable-buttondown-form"
-        >
-        <input type="email" name="email" id="bd-email" />
-        <input type="submit" value="Subscribe" />
-        </form>

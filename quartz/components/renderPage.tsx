@@ -2,7 +2,7 @@ import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
-import Homepage from "./Homepage"
+import Landing from "./Landing"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { clone, FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { visit } from "unist-util-visit"
@@ -214,14 +214,44 @@ export function renderPage(
     </div>
   )
 
-  const HomepageComponent = Homepage()
+  const LandingComponent = Landing()
 
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (
-    <html lang={lang}>
+<html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
+      
+      {slug === "index" && (   
+        <div id="quartz-root" class="page">
+          <Body {...componentData}>
+            {LeftComponent}
+            <div class="center">
+              <div class="page-header">
+                <Header {...componentData}>
+                  {header.map((HeaderComponent) => (
+                    <HeaderComponent {...componentData} />
+                  ))}
+                </Header>
+              </div>
+              <LandingComponent {...componentData} />
+              <Content {...componentData} />
+              <hr />
+              <div class="page-footer">
+                {afterBody.map((BodyComponent) => (
+                  <BodyComponent {...componentData} />
+                ))}
+              </div>
+            </div>
+            {RightComponent}
+            <Footer {...componentData} />
+          </Body>
+        </div>
+        
+      )}
+
+      {slug !== "index" && (   
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
@@ -233,14 +263,13 @@ export function renderPage(
                   ))}
                 </Header>
                 <div class="popover-hint">
-                  {slug !== "index" &&
-                  beforeBody.map((BodyComponent) => (
+                  {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />
                   ))}
                 </div>
               </div>
               <Content {...componentData} />
-              <hr style="min-width: 80%; max-width: 80%;"/>
+              <hr />
               <div class="page-footer">
                 {afterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />
@@ -251,6 +280,7 @@ export function renderPage(
             <Footer {...componentData} />
           </Body>
         </div>
+      )}
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import Landing from "./Landing"
 
 import HeaderNav from "./HeaderNav"
 import ButtondownSubscribe from "./ButtondownSubscribe"
@@ -49,4 +50,5 @@ export {
   Comments,
   HeaderNav,
   ButtondownSubscribe,
+  Landing,
 }

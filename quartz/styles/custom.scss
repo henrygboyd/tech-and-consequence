@@ -2,6 +2,68 @@
 
 // put your custom CSS here!
 
+.center > .popover-hint > p {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1rem 0;
+}
+
+.landing-title {
+  border-bottom: solid grey 1px;
+  padding-bottom: 1rem;
+}
+
+.homepage-section {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.recent-ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding-left: 0;
+}
+
+.recent-li {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 2rem 0;
+    border-bottom: solid grey 1px;
+
+    .section > .desc > h3 > a {
+      background-color: transparent;
+    }
+
+    .section > .meta {
+      margin: 0 0 0.5rem 0;
+      opacity: 0.6;
+    }
+
+    .section {
+      min-width: 400px;
+    }
+  }
+
+.sidebar.left {
+  justify-content: center;
+}
+
+.breadcrumb-container {
+  justify-content: center;
+}
+
 @media (min-width: 850px) {
   .page > #quartz-body {
     padding: 0 2rem;
@@ -21,16 +83,12 @@
   }
 
   .page > #quartz-body .page-listing {
-    min-width: 70%;
-    max-width: 70%;
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .page > #quartz-body article, .page > #quartz-body footer, .page > #quartz-body .page-footer, .page > #quartz-body .right-sidebar {
-    min-width: 65%;
-    max-width: 65%;
+  .page > #quartz-body .page-listing, .page > #quartz-body article, .page > #quartz-body footer, .page > #quartz-body .page-footer, .page > #quartz-body .right-sidebar {
+    min-width: 70%;
+    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -44,24 +102,6 @@
 
 }
 
-.sidebar.left {
-  justify-content: center;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 1rem 0;
-}
-
-.breadcrumb-container {
-  justify-content: center;
-}
-
-
 @media (max-width: 850px) {
   header {
     flex-wrap: wrap;
@@ -72,34 +112,9 @@ header {
   }
 }
 
-.homepage-section {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-
-& > ul.recent-ul {
-  list-style: none;
-  margin-top: 1rem;
-  padding-left: 0;
-
-  & > li {
-    margin: 1rem 0;
-    padding: 2rem 0;
-    border-bottom: solid grey 1px;
-
-    .section > .desc > h3 > a {
-      background-color: transparent;
-    }
-
-    .section > .meta {
-      margin: 0 0 0.5rem 0;
-      opacity: 0.6;
-    }
+@media (max-width: 600px;) {
+  .recent-li {
+    display: grid;
+    grid-template-columns: 1;
   }
-}
-}
-
-.landing-title {
-  border-bottom: solid grey 1px;
-  padding-bottom: 1rem;
 }

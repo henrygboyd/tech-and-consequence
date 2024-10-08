@@ -18,7 +18,7 @@ interface Options {
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  limit: 5,
+  limit: 10,
   linkToMore: false,
   showTags: true,
   filter: () => true,
@@ -42,11 +42,12 @@ export default ((userOpts?: Partial<Options>) => {
           {pages.slice(0, opts.limit).map((page) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
+            const description = page.frontmatter?.description ?? []
 
             return (
-              <li class="recent-li" style="display: flex; gap: 2rem;">
+              <li class="recent-li">
                 <div class ="featured-image">
-                  <img src="./assets/Can Less Be More when it Comes to VOD?.png" style="max-width: 300px" alt="featured image"></img>
+                  <img src="./assets/A24VODfeaturedimage.png" style="max-width: 300px" alt="featured image"></img>
                 </div>
                 <div class="section">
                   <div class="desc">
@@ -55,6 +56,11 @@ export default ((userOpts?: Partial<Options>) => {
                         {title}
                       </a>
                     </h3>
+                    <h4 style="margin-top: 5px; margin-bottom: 5px;">
+                      <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                        {description}
+                      </a>
+                    </h4>
                   </div>
                   {page.dates && (
                     <p class="meta">

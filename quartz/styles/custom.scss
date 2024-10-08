@@ -71,3 +71,35 @@ header {
     order: -1;
   }
 }
+
+.homepage-section {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+& > ul.recent-ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding-left: 0;
+
+  & > li {
+    margin: 1rem 0;
+    padding: 2rem 0;
+    border-bottom: solid grey 1px;
+
+    .section > .desc > h3 > a {
+      background-color: transparent;
+    }
+
+    .section > .meta {
+      margin: 0 0 0.5rem 0;
+      opacity: 0.6;
+    }
+  }
+}
+}
+
+.landing-title {
+  border-bottom: solid grey 1px;
+  padding-bottom: 1rem;
+}

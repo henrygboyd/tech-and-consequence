@@ -214,7 +214,9 @@ export function renderPage(
     </div>
   )
 
-  const LandingComponent = Landing()
+  const LandingComponent = Landing({ filter: (file) => {
+    return file.frontmatter?.post === true
+  }})
 
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"

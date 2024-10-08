@@ -6,7 +6,7 @@ import { Date, getDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
-import style from "./styles/landing.scss"
+import style from "./styles/Landing.scss"
 
 interface Options {
   title?: string
@@ -37,13 +37,17 @@ export default ((userOpts?: Partial<Options>) => {
     const remaining = Math.max(0, pages.length - opts.limit)
     return (
       <div class={classNames(displayClass, "homepage-section")}>
+        <h2 class="landing-title">Latest News</h2>
         <ul class="recent-ul">
           {pages.slice(0, opts.limit).map((page) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
 
             return (
-              <li class="recent-li">
+              <li class="recent-li" style="display: flex; gap: 2rem;">
+                <div class ="featured-image">
+                  <img src="./assets/Can Less Be More when it Comes to VOD?.png" style="max-width: 300px" alt="featured image"></img>
+                </div>
                 <div class="section">
                   <div class="desc">
                     <h3>

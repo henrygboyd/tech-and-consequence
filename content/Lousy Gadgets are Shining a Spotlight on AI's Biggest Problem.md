@@ -1,9 +1,11 @@
 ---
+post: true
 title: Lousy Gadgets are Shining a Spotlight on AI's Biggest Problem
 draft: false
 tags:
   - gadgets
 description: The harsh reality of standalone AI is a lot less glamorous than what tech companies have been promising
+featuredimagefilename: A24VODfeaturedimage.png
 permalink: 
 date: 2024-05-15
 ---

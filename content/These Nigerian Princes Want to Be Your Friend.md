@@ -1,10 +1,12 @@
 ---
+post: true
 title: These Nigerian Princes Want to Be Your Friend
 draft: false
 tags:
   - culture
   - news
 description: I want you to know that I’m here for you… and also your money
+featuredimagefilename: A24VODfeaturedimage.png
 permalink: 
 date: 2023-11-12
 ---

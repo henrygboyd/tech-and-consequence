@@ -1,9 +1,11 @@
 ---
+post: true
 title: The Great Internet Garbage Patch is Growing Larger Every Day
 draft: false
 tags:
   - culture
 description: AI Denzel Washington motivational deepfakes are the portent of our doom
+featuredimagefilename: A24VODfeaturedimage.png
 permalink: 
 date:
 ---

@@ -1,15 +1,17 @@
 ---
+post: true
 title: Can Less Be More when it Comes to VOD?
 draft: false
 tags:
   - apps
   - news
 description: In an industry built on bottomless content, A24’s new VOD service provides stark contrast
+featuredimagefilename: A24VODfeaturedimage.png
 permalink: 
 date: 2023-12-29
 ---
 
-![[Pasted image 20240929191157.png]]
+![[./assets/A24VODfeaturedimage.png]]
 
 <div class="buttondown-subscribe-box">
       <div class="subscribe-box-content">
@@ -30,7 +32,7 @@ The first time I remember having too many movie choices was when our local movie
 
 Nowadays, endless options are a basic requirement when it comes to video on demand. Consumers are presented with more than a few streaming services and video on demand apps that offer thousands of titles, more than one person could ever hope to watch in a lifetime. But recently a new player has entered the scene that offers a smaller catalog of content that is surprisingly refreshing.
 
-![[Pasted image 20240929191010.png]]
+![[./assets/Pasted image 20240929191010.png]]
 
 Angst & Existential Crises Everywhere All at Once
 
@@ -38,7 +40,7 @@ A24, the independent film studio darling, recently launched its own member servi
 
 As of December 2023 A24 has 87 films available to rent or buy through the service, most of their catalog besides a few more recent releases. Compare that to Netflix's 18,000+ titles, Hulu's 7,250+ titles, or Max's (formerly known as HBO Max) 3,300+ titles and you might find yourself wondering why anyone would even bother signing up or using the service. Not only that, but many of these same titles are also available to stream on Max and [will be for the foreseeable future](https://www.hollywoodreporter.com/movies/movie-news/hbo-max-a24-deal-1235712928/).
 
-![[Pasted image 20240929191100.png]]
+![[./assets/Pasted image 20240929191100.png]]
 
 I'm panicking just looking at these.
 
@@ -50,6 +52,6 @@ But there are also a few industry trends working against a standalone service li
 
 Now I don't believe A24 is trying to compete with any streaming services at the level of a Netflix or Amazon, but I do believe the company is picking up on the trend towards independent platforms we are seeing play out in many other content-focused industries. And while we've seen plenty of individual creators in fields such as video content and journalism thrive using this business model I don't expect there will be more film and television companies following in A24's footsteps anytime soon. Mainly because there really isn't any other independent film company that can wield the same level of cultural capital. A24 has nurtured a devoted following by curating a distinct brand of films that permeates across genres and themes in a way no other independent film studio has managed to replicate so far. If I say the name A24 to the average moviegoer, there's a decent chance that a specific film or vibe will probably pop into their mind almost immediately. But outside of giants like Marvel/DC/Disney/etc. I can't name a single other studio who has the same level of prestige. There just aren't any other studios or bodies of work as opinionated or cohesive enough to stand out to consumers in contrast to the amorphous and all-consuming platforms that dominate the industry.
 
-![[Pasted image 20240929191114.png]]
+![[./assets/Pasted image 20240929191114.png]]
 
 The A24 app isn't going to trigger major changes across video on demand. It will likely remain a niche service used by a very specific group of consumers devoted to one film studio's work. But in an industry dominated by streaming behemoths, I think an option on the opposite end of that spectrum is a welcome addition. And while I don't envision any other studios joining A24 anytime soon, I believe having more specific and curated VOD options like these will only serve to improve our content consumption as consumers. It's an opportunity for all of us to try swapping out a tsunami of endless content for a pond. Limitations to be certain, but perhaps a little more serene.

@@ -1,12 +1,16 @@
 ---
+post: false
 title: About
 draft: false
 tags:
   -
 description: 
+featuredimagefilename:
 permalink: 
 date:
 ---
+
+<br>
 
 Tech & Consequence is dedicated to exploring the ripples caused by technological change in our world and throwing off the rosy perspective that has pervaded tech journalism & criticism in the past. Ignoring the potential impact or unintended consequences (wink wink) of new technologies does a disservice to both our communities and the same companies trying to create change through their work.
 

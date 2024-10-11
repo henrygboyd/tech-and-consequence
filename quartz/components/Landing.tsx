@@ -43,11 +43,12 @@ export default ((userOpts?: Partial<Options>) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
             const description = page.frontmatter?.description ?? []
+            const featuredimagename = page.frontmatter?.featuredimagefilename []
 
             return (
               <li class="recent-li">
                 <div class ="featured-image">
-                  <img src="./assets/A24VODfeaturedimage.png" style="max-width: 300px" alt="featured image"></img>
+                  <img src="./assets/A24VODfeaturedimage.png" style="max-width: 400px" alt="featured image"></img>
                 </div>
                 <div class="section">
                   <div class="desc">
@@ -56,7 +57,7 @@ export default ((userOpts?: Partial<Options>) => {
                         {title}
                       </a>
                     </h3>
-                    <h4 style="margin-top: 5px; margin-bottom: 5px;">
+                    <h4 class="section-description">
                       <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                         {description}
                       </a>

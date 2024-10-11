@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
 
@@ -6,6 +7,7 @@
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1rem;
 }
 
 header {
@@ -17,6 +19,19 @@ header {
   padding: 1rem 0;
 }
 
+.section-description {
+  font-weight: 100;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.center > .popover-hint {
+    padding-bottom: 2rem;
+}
+
+.page-footer {
+  padding-top: 2rem;
+}
 .landing-title {
   border-bottom: solid grey 1px;
   padding-bottom: 1rem;
@@ -26,6 +41,7 @@ header {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 2rem;
 }
 
 ul.recent-ul {
@@ -42,6 +58,10 @@ ul.recent-ul {
     padding: 2rem 0;
     border-bottom: solid grey 1px;
 
+    .section > .desc > h3 {
+      max-width: 400px;
+    }
+
     .section > .desc > h3 > a {
       background-color: transparent;
     }
@@ -49,10 +69,6 @@ ul.recent-ul {
     .section > .meta {
       margin: 0 0 0.5rem 0;
       opacity: 0.6;
-    }
-
-    .section {
-      min-width: 400px;
     }
   }
 
@@ -99,7 +115,6 @@ ul.recent-ul {
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 @media (max-width: 850px) {
@@ -112,9 +127,13 @@ ul.recent-ul {
   }
 }
 
-@media (max-width: 600px;) {
+@media (max-width: 600px) {
   .recent-li {
     display: grid;
     grid-template-columns: 1;
+  }
+
+  .section {
+    min-width: 400px;
   }
 }

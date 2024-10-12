@@ -11,9 +11,9 @@ permalink:
 date: 2023-12-29
 ---
 
-![[content/assets/Can Less Be More when it Comes to VOD?/A24VODfeaturedimage.png]]
+![[content/assets/CanLessBeMoreWhenitComesToVOD?/A24VODfeaturedimage.png]]
 
-<div><img src="https://henry-boyd.github.io/tech-and-consequence/content/assets/Can Less Be More when it Comes to VOD?/A24VODfeaturedimage.png" alt="A24 VOD homepage"></div>
+<div><img src="https://henry-boyd.github.io/tech-and-consequence/content/assets/CanLessBeMoreWhenitComesToVOD?/A24VODfeaturedimage.png" alt="A24 VOD homepage"></div>
 
 <div class="buttondown-subscribe-box">
       <div class="subscribe-box-content">

@@ -5,12 +5,12 @@ draft: false
 tags:
   - gadgets
 description: The harsh reality of standalone AI is a lot less glamorous than what tech companies have been promising
-featuredimagefilename: A24VODfeaturedimage.png
+featuredimagefilename: LousyAIGadgetsfeaturedimage.png
 permalink: 
 date: 2024-05-15
 ---
 
-![[Pasted image 20240929190302.png]]
+<div><img src="./assets/LousyAIGadgets/LousyAIGadgetsfeaturedimage.png"></div>
 
 With the long-anticipated release of the Humane AI Pin and the Rabbit R1 the first wave of standalone AI gadgets have arrived in consumer's hands. And the response has been… overwhelming negative to say the least.
 

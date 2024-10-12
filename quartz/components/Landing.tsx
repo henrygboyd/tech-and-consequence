@@ -43,12 +43,15 @@ export default ((userOpts?: Partial<Options>) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
             const description = page.frontmatter?.description ?? []
-            const featuredimagename = page.frontmatter?.featuredimagefilename []
+            const featuredimagefilename = page.frontmatter?.featuredimagefilename ?? []
+            const featuredimagepath = "./assets/LousyAIGadgets/LousyAIGadgetsfeaturedimage.png"
+
 
             return (
               <li class="recent-li">
                 <div class ="featured-image">
-                  <img src="./assets/A24VODfeaturedimage.png" style="max-width: 400px" alt="featured image"></img>
+                  <img src="" id="featured-image-script" style="width: 100%; height: 200px;"></img>
+                  <img src="./assets/LousyAIGadgets/LousyAIGadgetsfeaturedimage.png"></img>
                 </div>
                 <div class="section">
                   <div class="desc">

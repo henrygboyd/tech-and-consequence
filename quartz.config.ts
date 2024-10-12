@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "henrygboyd.github.io/tech-and-consequence",
+    baseUrl: "henry-boyd.github.io/tech-and-consequence",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

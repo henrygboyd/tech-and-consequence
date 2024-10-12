@@ -6,7 +6,7 @@ import { Date, getDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
-import style from "./styles/Landing.scss"
+import style from "./styles/landing.scss"
 
 interface Options {
   title?: string

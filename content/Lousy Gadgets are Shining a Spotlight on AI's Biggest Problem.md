@@ -10,7 +10,7 @@ permalink:
 date: 2024-05-15
 ---
 
-<div><img src="./assets/LousyAIGadgets/LousyAIGadgetsfeaturedimage.png"></div>
+<div><img class="note-image-styling" src="./assets/Lousy Gadgets are Shining a Spotlight on AI's Biggest Problem/LousyAIGadgetsfeaturedimage.png"></div>
 
 With the long-anticipated release of the Humane AI Pin and the Rabbit R1 the first wave of standalone AI gadgets have arrived in consumer's hands. And the response has been… overwhelming negative to say the least.
 
@@ -26,7 +26,11 @@ We've moved on from the “Hey look at this cool new thing!” era of initial AI
 
 There’s an implicit trust we have in the devices we use every day and that trust has to be earned. But I still don’t know anyone who puts faith in AI at that level, or even trusts it at all for that matter. If anything this lack of reliability creates a necessity for paranoia that most find uncomfortable if not time-consuming and energy-draining to the point of uselessness. The inherent skepticism we have with AI in its current state makes using them as standalone devices impossible for the same reason why you wouldn’t want to be friends with someone who lied to you every third sentence. A relationship like that means your guard always has to be up to some extent and that is exhausting. You wouldn’t keep a smartphone in your pocket everyday if a call failed every third try, and until that changes no one is likely to keep either the Humane AI Pin or the Rabbit R1 in their pocket (or on their shirt collar) either.
 
-**Review Referenced in the Cover Image:**
+
+<h3 style="text-align: center">Featured Image Review Links:</h3>
+
+<div style="display: flex; justify-content: space-evenly;">
+<div>
 
 - **Humane AI Pin**
     - [Engadget](https://www.engadget.com/the-humane-ai-pin-is-the-solution-to-none-of-technologys-problems-120002469.html)
@@ -34,9 +38,14 @@ There’s an implicit trust we have in the devices we use every day and that tru
     - [Washington Post](https://www.washingtonpost.com/technology/2024/04/11/humane-ai-pin-review/)
     - [Wired](https://www.wired.com/review/humane-ai-pin/)
     - [The Verge](https://www.theverge.com/24126502/humane-ai-pin-review)
+</div>
+<div>
+
 - **Rabbit R1**
     - [Mashable](https://mashable.com/review/rabbit-r1)
     - [MKBHD](https://www.youtube.com/watch?v=ddTV12hErTc)
     - [Tom’s Guide](https://www.tomsguide.com/ai/rabbit-r1-review)
     - [Techradar](https://www.techradar.com/phones/i-spent-a-day-with-rabbit-r1-and-its-a-beautiful-mess-that-im-not-sure-anyone-needs)
     - [The Verge](https://www.theverge.com/2024/5/2/24147159/rabbit-r1-review-ai-gadget)
+</div>
+</div>

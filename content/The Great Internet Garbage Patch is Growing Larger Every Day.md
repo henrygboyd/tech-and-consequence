@@ -5,12 +5,12 @@ draft: false
 tags:
   - culture
 description: AI Denzel Washington motivational deepfakes are the portent of our doom
-featuredimagefilename: A24VODfeaturedimage.png
+featuredimagefilename: Incredulous Denzel Washington.png
 permalink: 
 date:
 ---
 
-![[Pasted image 20240929191606.png]]
+<div><img class="note-image-styling" src="./assets/The Great Internet Garbage Patch is Growing Larger Every Day/Incredulous Denzel Washington.png"></img></div>
 
 If you're someone who regularly uses the internet in their day-to-day life you've probably noticed lately it feels... worse. Not massively worse mind you, but enough to be noticeable here and there. A slightly downgraded experience affecting almost every corner of the internet.
 
@@ -20,11 +20,17 @@ The reason this caught my attention is because I'm already a big fan of Mr. Wash
 
 Then not two videos later I was confronted with another, a different Denzel picture but the exact same quote and AI audio. Curious, but not exactly unique nowadays; I see plenty of repetitive videos on my Tiktok feed nowadays during what little time I spend on the app anymore. The repetition mostly comes from different accounts all trying to sell the same gadget desperately in search of a problem to solve. But lo and behold, not a few swipes later I was looking at another Denzel picture and the same motivational quote.
 
-https://www.tiktok.com/@empowermind8/video/7357981816680172843?is_from_webapp=1&web_id=7348508610656683562
-
-https://www.tiktok.com/@g_s504/video/7354570923418062123?is_from_webapp=1&web_id=7348508610656683562
-
-https://www.tiktok.com/@sharaya_sharaya/video/7351134111504928032?is_from_webapp=1&web_id=7348508610656683562
+<div style="display: flex;">
+<div>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@g_s504/video/7354570923418062123" data-video-id="7354570923418062123" style="border-left: none; max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@g_s504" href="https://www.tiktok.com/@g_s504?refer=embed">@g_s504</a> <p></p> <a target="_blank" title="♬ original sound - glenn" href="https://www.tiktok.com/music/original-sound-7354571006251485994?refer=embed">♬ original sound - glenn</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+<div>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@empowermind8/video/7357981816680172843" data-video-id="7357981816680172843" style="border-left: none; max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@empowermind8" href="https://www.tiktok.com/@empowermind8?refer=embed">@empowermind8</a> Never Force anyone to stay with you #motivation<a title="denzelwashington" target="_blank" href="https://www.tiktok.com/tag/denzelwashington?refer=embed">#denzelwashington</a><a title="motivationalquotes" target="_blank" href="https://www.tiktok.com/tag/motivationalquotes?refer=embed">#motivationalquotes</a> <a title="relationshipadvice" target="_blank" href="https://www.tiktok.com/tag/relationshipadvice?refer=embed">#relationshipadvice</a> <a title="lifelessons" target="_blank" href="https://www.tiktok.com/tag/lifelessons?refer=embed">#lifelessons</a> <a title="lifechoices" target="_blank" href="https://www.tiktok.com/tag/lifechoices?refer=embed">#lifechoices</a> <a title="lifeadvicetiktok" target="_blank" href="https://www.tiktok.com/tag/lifeadvicetiktok?refer=embed">#lifeadvicetiktok</a> <a title="staypositive" target="_blank" href="https://www.tiktok.com/tag/staypositive?refer=embed">#staypositive</a> <a target="_blank" title="♬ original sound  - EmpowerMind" href="https://www.tiktok.com/music/original-sound-EmpowerMind-7357981902956956458?refer=embed">♬ original sound  - EmpowerMind</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+<div>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sharaya_sharaya/video/7351134111504928032" data-video-id="7354570923418062123" style="border-left: none; max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@g_s504" href="https://www.tiktok.com/@g_s504?refer=embed">@g_s504</a> <p></p> <a target="_blank" title="♬ original sound - glenn" href="https://www.tiktok.com/music/original-sound-7354571006251485994?refer=embed">♬ original sound - glenn</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+</div>
 
 The quote itself seems to be a mashup of common tropes in motivational speeches:
 
@@ -34,7 +40,7 @@ In all my internet sleuthing I didn't find any evidence Denzel Washington has ev
 
 Besides this Denzel deluge I've seen similar patterns everywhere in my corner of the internet: social media feeds for every app have slightly more low-quality sponsored content and advertisements to scroll past. Friend requests from spam accounts sending phishing links or pornography are increasing in frequency. Search engine results have a little bit more junk we need to wade through to find the answers we need than they used to. Even more isolated areas of content don't seem to be immune to this onslaught (just ask the scientific community about their recent [dubious research results](https://www.404media.co/google-says-it-discovered-millions-of-new-materials-with-ai-human-researchers/) or [peer reviews](https://arxiv.org/pdf/2403.07183.pdf)). The junk and spam seeping into the internet is steadily increasing in velocity and volume and as a result I find myself spending more of my time filtering through meaningless and worthless pieces of content. Or put more simply, the internet is filling up with garbage. And more than usual.
 
-![[Pasted image 20240929191712.png]]
+<div><img class="note-image-styling" src="./assets/The Great Internet Garbage Patch is Growing Larger Every Day/Ocean Garbage.png"></img></div>
 
 It's like a For You page but with less reposts
 
@@ -50,7 +56,7 @@ So what does all of this mean for the future of our internet? To put it simply, 
 
 My fear is that two versions of the internet will emerge because of this influx of garbage. One will be a well-maintained walled garden, full of mostly pleasant actual human people and an overall enjoyable place to visit with a nice barrier keeping out most but probably not all of the junk. And the other will be a true internet hellscape: inundated with low-quality content, spewing endlessly repetitive knockoffs of original thoughts at you, [reduced to stereotypes](https://restofworld.org/2023/ai-image-stereotypes/), with fake people hawking nonsense goods & services and constant waves of spam ads knocking you down with every click. And the the only factor separating the two will be price.
 
-![[Pasted image 20240929191729.png]]
+<div><img class="note-image-styling" src="./assets/The Great Internet Garbage Patch is Growing Larger Every Day/Inequality Divide.png"></img></div>
 
 Meet your new internets! (Not to be on the nose or anything)
 
@@ -58,7 +64,7 @@ Content moderation costs companies a lot of time, money, and headache depending 
 
 There isn’t a whole lot we as individual users can do to prevent this wave of garbage. I've seen some argue that the only way to effectively combat this invasion is through [government intervention and legislation](https://www.nytimes.com/2024/03/29/opinion/ai-internet-x-youtube.html), which I agree would be a massive step in the right direction. But this AI-generated content isn’t going anymore and the tools to make it are only going to become more accessible with each passing day. Like any tech trend we’ve seen take off in the past the AI hype train has a lot of momentum, but I do think society has started to recognize enough of its inherent problems that enthusiasm has begun to dampen. Our only hope is that enough outcry, both from users and all the tech companies in this space who are going to take the brunt of the damage this influx of garbage will cause, forces AI companies to invest in effective tools to moderate and manage the flow of this mess they’ve created. But for now we will have to wade our way through this trickle of garbage and junk in the search for authentic Denzel Washington content. Just don’t be surprised when that trickle turns into something bigger.
 
-https://www.youtube.com/watch?v=jdT2ZATYuMQ
+<iframe class="embedded-video" width="560" height="315" src="https://www.youtube.com/embed/jdT2ZATYuMQ?si=qZGaTDAppn_AOTfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 There's a Denzel reference for every occasion, including a metaphor for the invasion of  
 AI-generated garbage content on the internet.

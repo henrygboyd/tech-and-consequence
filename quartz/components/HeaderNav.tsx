@@ -11,10 +11,10 @@ export default (() => {
       <div id="links-header-container">
         <div id="links-header">        
             <a href="/index">Home</a>    
-            <a href="/tags/news/">News</a>    
-            <a href="/tags/culture/">Culture</a>     
+            <a href="/tags/news">News</a>    
+            <a href="/tags/culture">Culture</a>     
             <a href="/tags/policy">Policy</a>
-            <a href="/About/">About</a>
+            <a href="/about">About</a>
         </div>
       </div>
     )

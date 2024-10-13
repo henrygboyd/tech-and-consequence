@@ -51,7 +51,6 @@ export default ((userOpts?: Partial<Options>) => {
               <li class="recent-li">
                 <div class ="featured-image">
                   <img src="" id="featured-image-script" style="width: 100%; height: 200px;"></img>
-                  <img src="./assets/LousyAIGadgets/LousyAIGadgetsfeaturedimage.png"></img>
                 </div>
                 <div class="section">
                   <div class="desc">

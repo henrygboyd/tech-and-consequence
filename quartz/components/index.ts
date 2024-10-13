@@ -20,10 +20,11 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
-import Landing from "./Landing"
 
+import Landing from "./Landing"
 import HeaderNav from "./HeaderNav"
 import ButtondownSubscribe from "./ButtondownSubscribe"
+import ArticleDesc from "./ArticleDesc"
 
 export {
   ArticleTitle,
@@ -51,4 +52,5 @@ export {
   HeaderNav,
   ButtondownSubscribe,
   Landing,
+  ArticleDesc
 }

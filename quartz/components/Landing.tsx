@@ -44,13 +44,13 @@ export default ((userOpts?: Partial<Options>) => {
             const tags = page.frontmatter?.tags ?? []
             const description = page.frontmatter?.description ?? []
             const featuredimagefilename = page.frontmatter?.featuredimagefilename ?? []
-            const featuredimagepath = "./assets/LousyAIGadgets/LousyAIGadgetsfeaturedimage.png"
-
+            const featuredimagepath = "./assets/"+title+"/"+featuredimagefilename
 
             return (
               <li class="recent-li">
                 <div class ="featured-image">
                   <img src="" id="featured-image-script" style="width: 100%; height: 200px;"></img>
+                  {featuredimagepath}
                 </div>
                 <div class="section">
                   <div class="desc">
@@ -59,11 +59,11 @@ export default ((userOpts?: Partial<Options>) => {
                         {title}
                       </a>
                     </h3>
-                    <h4 class="section-description">
+                    <p class="section-description">
                       <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                         {description}
                       </a>
-                    </h4>
+                    </p>
                   </div>
                   {page.dates && (
                     <p class="meta">

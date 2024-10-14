@@ -1,9 +1,9 @@
 ---
 post: false
-title: About
+title: about
 draft: false
 tags:
-  - sitepages
+  - 
 description: 
 featuredimagefilename:
 permalink: 

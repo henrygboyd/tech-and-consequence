@@ -1,6 +1,6 @@
 ---
-post: true
-title: About
+post: false
+title: about
 draft: false
 tags:
   - sitepages

@@ -1,11 +1,11 @@
 ---
 post: true
-title: 
+title: How Do We Robot?
 draft: true
 tags:
   - apps
   - news
-description: 
+description: Tesla's "We, Robot" event was a bit of a nothingburger to put it mildly. But its themes and evocations made me ponder, what is it that we actually want from robots?
 featuredimagefilename: A24VODfeaturedimage.png
 permalink: 
 date: 2024-10-10
@@ -32,6 +32,8 @@ Initial Thoughts:
 - Twenty robotaxis driving around a pre-planned loop does not a robotaxi make
 - Connect these ideas back to Hyperloop which went nowhere
 
+
 Other articles:
 - Shares dropped 9% after show (https://www.cnbc.com/2024/10/11/tesla-tsla-stock-drops-in-premarket-after-cybercab-robotaxi-reveal.html?__source=iosappshare%7Ccom.apple.UIKit.activity.Message)
+- Automation is hard (https://hardcoresoftware.learningbyshipping.com/p/222-automating-processes-with-software)
 - 

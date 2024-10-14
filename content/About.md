@@ -3,7 +3,7 @@ post: false
 title: About
 draft: false
 tags:
-  -
+  -sitepages
 description: 
 featuredimagefilename:
 permalink: 

@@ -26,4 +26,4 @@ Thanks for stopping by and let us know if you think there's anything we should c
 
 <br>
 
-Created by [Henry Boyd](https://www.henrygboyd.com/) <br>**Quick disclaimer:** Any opinions expressed here are my own and not those of my current employer
+Created by [Henry Boyd](https://www.henry-boyd.com/) <br>**Quick disclaimer:** Any opinions expressed here are my own and not those of my current employer

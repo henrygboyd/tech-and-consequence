@@ -1,6 +1,6 @@
 ---
 post: false
-title: about
+title: About
 draft: false
 tags:
   - 

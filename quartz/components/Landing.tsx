@@ -49,8 +49,9 @@ export default ((userOpts?: Partial<Options>) => {
             return (
               <li class="recent-li">
                 <div class ="featured-image">
-                  <img src="" id="featured-image-script" style="width: 100%; height: 200px;"></img>
-                  {featuredimagepath}
+                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                    <img src={featuredimagepath}></img>
+                  </a>
                 </div>
                 <div class="section">
                   <div class="desc">

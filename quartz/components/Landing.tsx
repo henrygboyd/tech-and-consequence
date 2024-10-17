@@ -43,7 +43,7 @@ export default ((userOpts?: Partial<Options>) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
             const description = page.frontmatter?.description ?? []
-            const featuredimagefilename = page.frontmatter?.featuredimagefilename ?? []
+            const featuredimagefilename = page.frontmatter?.featuredimagefilename ??
             const featuredimagepath = "./assets/"+title+"/"+featuredimagefilename
 
             return (

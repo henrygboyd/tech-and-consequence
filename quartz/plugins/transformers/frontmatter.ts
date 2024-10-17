@@ -71,6 +71,12 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]))
             if (cssclasses) data.cssclasses = cssclasses
 
+            if (data.featuredimagefilename != null && data.featuredimagefilename.toString() !== "") {
+              data.featuredimagefilename = data.featuredimagefilename.toString();
+            } else {
+              data.featuredimagefilename = ""
+            }
+
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"]
           }
@@ -93,6 +99,7 @@ declare module "vfile" {
         lang: string
         enableToc: string
         cssclasses: string[]
+        featuredimagefilename: string
       }>
   }
 }

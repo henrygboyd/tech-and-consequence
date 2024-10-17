@@ -13,8 +13,6 @@ const ArticleDesc: QuartzComponent = ({ fileData, displayClass }: QuartzComponen
 ArticleDesc.css = `
 .article-desc {
   margin: .5rem 0 .5rem 0;
-    min-width: 60%;
-    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 }

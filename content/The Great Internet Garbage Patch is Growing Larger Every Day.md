@@ -20,7 +20,7 @@ The reason this caught my attention is because I'm already a big fan of Mr. Wash
 
 Then not two videos later I was confronted with another, a different Denzel picture but the exact same quote and AI audio. Curious, but not exactly unique nowadays; I see plenty of repetitive videos on my Tiktok feed nowadays during what little time I spend on the app anymore. The repetition mostly comes from different accounts all trying to sell the same gadget desperately in search of a problem to solve. But lo and behold, not a few swipes later I was looking at another Denzel picture and the same motivational quote.
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: wrap">
 <div>
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@g_s504/video/7354570923418062123" data-video-id="7354570923418062123" style="border-left: none; max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@g_s504" href="https://www.tiktok.com/@g_s504?refer=embed">@g_s504</a> <p></p> <a target="_blank" title="♬ original sound - glenn" href="https://www.tiktok.com/music/original-sound-7354571006251485994?refer=embed">♬ original sound - glenn</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 </div>

@@ -8,6 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 1rem;
+  padding: 0 1rem;
 }
 
 header {
@@ -56,28 +57,6 @@ ul.recent-ul {
   padding-left: 0;
 }
 
-.recent-li {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    margin: 1rem 0;
-    padding: 1rem 0;
-    border-bottom: solid grey 1px;
-
-    .section > .desc > h3 {
-      max-width: 400px;
-    }
-
-    .section > .desc > h3 > a {
-      background-color: transparent;
-    }
-
-    .section > .meta {
-      margin: 0 0 0.5rem 0;
-      opacity: 0.6;
-    }
-  }
-
 .sidebar.left {
   justify-content: center;
 }
@@ -95,8 +74,8 @@ ul.recent-ul {
 .note-image-styling {
   display: block;
   margin: auto;
-  max-width: 900px;
-  max-height: 600px;
+  max-width: 100%;
+  height: auto;
   padding: 1rem 0;
 }
 
@@ -109,13 +88,6 @@ ul.recent-ul {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .page > #quartz-body .page-header, .page > #quartz-body .sidebar.left, .page > #quartz-body .page-listing {
-      min-width: 80%;
-      max-width: 80%;
-      margin-left: auto;
-      margin-right: auto;
   }
 
   .page > #quartz-body .page-listing {
@@ -135,6 +107,20 @@ ul.recent-ul {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .article-desc {
+      min-width: 60%;
+      max-width: 60%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .page > #quartz-body .page-header, .page > #quartz-body .sidebar.left, .page > #quartz-body .page-listing {
+    min-width: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 @media (max-width: 850px) {
@@ -148,13 +134,38 @@ ul.recent-ul {
 }
 
 @media (max-width: 600px) {
+  .section {
+    min-width: 400px;
+  }
+}
+
+.recent-li {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 2rem 0;
+  border-bottom: solid grey 1px;
+
+  .section > .desc > h3 {
+    max-width: 400px;
+  }
+
+  .section > .desc > h3 > a {
+    background-color: transparent;
+  }
+
+  .section > .meta {
+    margin: 0 0 0.5rem 0;
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 700px) {
   .recent-li {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-
-  .section {
-    min-width: 400px;
   }
 }

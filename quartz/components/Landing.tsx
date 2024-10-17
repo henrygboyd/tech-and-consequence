@@ -43,14 +43,14 @@ export default ((userOpts?: Partial<Options>) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
             const description = page.frontmatter?.description ?? []
-            const featuredimagefilename = page.frontmatter?.featuredimagefilename ??
-            const featuredimagepath = "./assets/"+title+"/"+featuredimagefilename
+            const featuredimagefilename = page.frontmatter?.featuredimagefilename ?? ""
+            const featuredimagepath = "/assets/featuredimages/"+featuredimagefilename
 
             return (
               <li class="recent-li">
                 <div class ="featured-image">
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
-                    <img src={featuredimagepath}></img>
+                    <img src={featuredimagepath} ></img>
                   </a>
                 </div>
                 <div class="section">

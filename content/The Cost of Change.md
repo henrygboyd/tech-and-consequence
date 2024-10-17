@@ -5,7 +5,7 @@ draft: false
 tags:
   - culture
 description: aka the role of quarters (pun very much intended)
-featuredimagefilename: Parking Meter.png
+featuredimagefilename: ParkingMeter.png
 permalink: 
 date: 2023-06-12
 ---

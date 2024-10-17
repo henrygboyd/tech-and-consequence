@@ -38,7 +38,9 @@ header {
 }
 
 .featured-image {
-  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  width: 400px;
 }
 
 .homepage-section {
@@ -59,7 +61,7 @@ ul.recent-ul {
     gap: 2rem;
     align-items: center;
     margin: 1rem 0;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: solid grey 1px;
 
     .section > .desc > h3 {
@@ -148,7 +150,8 @@ ul.recent-ul {
 @media (max-width: 600px) {
   .recent-li {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .section {

@@ -6,7 +6,7 @@ tags:
   - news
   - policy
 description: Looks like no one thought of the children (insert ticking clock puns here)
-featuredimagefilename: TikTok Logo.png
+featuredimagefilename: TikTokLogo.png
 permalink: 
 date: 2024-04-26
 ---

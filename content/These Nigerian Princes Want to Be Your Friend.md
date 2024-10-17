@@ -6,7 +6,7 @@ tags:
   - culture
   - news
 description: I want you to know that I’m here for you… and also your money
-featuredimagefilename: Google Spam Identifier (How are Your?).png
+featuredimagefilename: GoogleSpamIdentifierHowareYour.png
 permalink: 
 date: 2023-11-12
 ---

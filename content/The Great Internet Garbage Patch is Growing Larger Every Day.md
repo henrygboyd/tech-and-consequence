@@ -5,7 +5,7 @@ draft: false
 tags:
   - culture
 description: AI Denzel Washington motivational deepfakes are the portent of our doom
-featuredimagefilename: Incredulous Denzel Washington.png
+featuredimagefilename: IncredulousDenzelWashington.png
 permalink: 
 date:
 ---

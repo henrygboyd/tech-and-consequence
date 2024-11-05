@@ -36,4 +36,6 @@ Initial Thoughts:
 Other articles:
 - Shares dropped 9% after show (https://www.cnbc.com/2024/10/11/tesla-tsla-stock-drops-in-premarket-after-cybercab-robotaxi-reveal.html?__source=iosappshare%7Ccom.apple.UIKit.activity.Message)
 - Automation is hard (https://hardcoresoftware.learningbyshipping.com/p/222-automating-processes-with-software)
+- Replacing ourselves with robots/AI in our work (https://dev.to/docsgpt/how-i-cloned-myself-with-llms-to-work-247-even-while-i-sleep-23nn?context=digest)
+	- What does this say about our definition of "meaningful interactions?" (someone in the comments mentions this idea)
 - 
